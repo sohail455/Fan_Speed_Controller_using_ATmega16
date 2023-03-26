@@ -1,0 +1,18 @@
+/******************************************************************************
+ *
+ * Module: Dc Motor
+ *
+ * File Name: DcMotor.h
+ *
+ * Description: header file for Dc Motor driver
+ *
+ * Author: Sohail Talaat
+ *
+ *******************************************************************************/
+
+#ifndef DCMODTOR_H_
+#define DCMODTOR_H_
+
+
+
+#endif /* DCMODTOR_H_ */

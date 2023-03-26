@@ -1,0 +1,24 @@
+/******************************************************************************
+ *
+ * Module: Dc Motor
+ *
+ * File Name: DcMotor.h
+ *
+ * Description: header file for Dc Motor driver
+ *
+ * Author: Sohail Talaat
+ *
+ *******************************************************************************/
+
+#ifndef DCMODTOR_H_
+#define DCMODTOR_H_
+
+
+#define INPUT1_PORT PORTB_ID
+#define INPUT1_PIN PIN0_ID
+
+#define INPUT2_PORT PORTB_ID
+#define INPUT2_PIN PIN1_ID
+
+
+#endif /* DCMODTOR_H_ */

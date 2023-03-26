@@ -1,0 +1,41 @@
+/******************************************************************************
+ *
+ * Module: Dc Motor
+ *
+ * File Name: DcMotor.h
+ *
+ * Description: header file for Dc Motor driver
+ *
+ * Author: Sohail Talaat
+ *
+ *******************************************************************************/
+
+#ifndef DC_MOTOR_H_
+#define DC_MOTOR_H_
+#include"std_types.h"
+/*******************************************************************************
+ *                                Definitions                                  *
+ *******************************************************************************/
+
+#define INPUT1_PORT PORTB_ID
+#define INPUT1_PIN PIN0_ID
+
+#define INPUT2_PORT PORTB_ID
+#define INPUT2_PIN PIN1_ID
+/*******************************************************************************
+ *                         Types Declaration                                   *
+ *******************************************************************************/
+typedef enum
+{
+	STOP,CLOCKWISE,ANTI_CLOCKWISE
+}DcMotor_State;
+/*******************************************************************************
+ *                      Functions Prototypes                                   *
+ *******************************************************************************/
+void DcMotor_Init(void);
+void DcMotor_Rotate(DcMotor_State state,uint8 speed);
+
+
+
+
+#endif /* DC_MOTOR_H_ */

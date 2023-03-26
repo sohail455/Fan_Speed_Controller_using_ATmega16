@@ -1,0 +1,21 @@
+ /******************************************************************************
+ *
+ * Module: Dc Motor
+ *
+ * File Name: DcMotor.c
+ *
+ * Description: source file forDc Motort driver
+ *
+ * Author: Sohail Talaat
+ *
+ *******************************************************************************/
+#include"dc_motor.h"
+#include"gpio.h"
+#include"std_types"
+/*******************************************************************************
+ *                      Functions Definitions                                  *
+ *******************************************************************************/
+void DcMotor_Init(void)
+{
+	GPIO_setupPinDirection(INPUT1_PORT, INPUT1_PIN, OUTPUT_PIN);
+}
